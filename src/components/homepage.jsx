@@ -6,7 +6,9 @@ import Avatars from "./avatar";
 import Avatar1 from "../asset/images/Female avatar with laptop.svg";
 import Avatar2 from "../asset/images/Male avatar with phone.svg";
 import Avatar3 from "../asset/images/Female avater with coffee.svg";
+import AvatarMaleAndFemale from "../asset/images/Male and Female avatar.svg"
 import Statistics from "./statistics";
+import Form from "./form";
 const Homepage = () => {
   return (
     <div>
@@ -26,7 +28,7 @@ const Homepage = () => {
       </div>
 
       <div className="">
-        <div className="text-center mb-10">
+        <div className="text-center mb-10 ">
           <SubHeading subHeading="Meet the heroes behind the magic" />
         </div>
 
@@ -53,7 +55,7 @@ const Homepage = () => {
             />
           </div>
         </div>
-
+    </div>
         <div className="bg-gray-900 text-white  ">
           <div className=" flex flex-wrap justify-between  text-center lg:text-left p-0 lg:pl-28 py-5">
             <div className="w-full sm:w-full md:w-6/12 lg:w-3/12  mb-4">
@@ -74,8 +76,28 @@ const Homepage = () => {
             </div>
           </div>
         </div>
-      </div>
+
+        <div className="flex justify-between flex-wrap py-52 px-28">
+            <div className=" pt-12 pb-20 px-8 md:px-12 lg:px-28 bg-yellow-50 text-center w-full  lg:w-5/12 mb-12">
+                <img
+                className="w-full h-full"
+                src={AvatarMaleAndFemale}
+                alt=""
+                />
+            </div>
+
+            <div className="w-full  lg:w-5/12">
+                <div className="text-right mb-12">
+                    <SubHeading subHeading="We'd love to hear 
+                        from you"/>
+                </div>
+                <div>
+                <Form />
+                </div>
+            </div>
+        </div>
     </div>
+    
   );
 };
 
