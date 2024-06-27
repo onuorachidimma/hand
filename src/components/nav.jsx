@@ -1,4 +1,5 @@
 import React, { useState } from 'react';
+import StartProjectButton from './startProject';
 const NavBar = () => {
     const [isOpen, setIsOpen] = useState(false);
 
@@ -22,9 +23,7 @@ const NavBar = () => {
           </div>
 
           <div className={`${isOpen ? 'block' : 'hidden'} lg:flex w-full lg:w-auto`}>
-            <button className="w-40 h-12 rounded-lg bg-gray-900 text-white">
-                Start a project
-            </button>
+            <StartProjectButton />
           </div>
 
           <button
