@@ -4,7 +4,7 @@ import Homepage from './components/homepage';
 import SuccessPage from './components/successPage';
 function App() {
   return (
-    <div>
+    <div className='font-roboto'>
       <Routes>
       <Route path='/' element={<Homepage />}/>
       <Route path="/success" element={<SuccessPage />} />

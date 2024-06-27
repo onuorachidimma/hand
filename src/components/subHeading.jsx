@@ -1,9 +1,9 @@
 const SubHeading = (props) => {
   return <div className="w-10/12 mx-auto ">
-    <h2 className="font-manrope font-normal font-bold text-4xl text-gray-800">
+    <h2 className="font-roboto  font-black text-4xl text-subBlack mb-9">
     {props.subHeading}
     </h2>
-    <p className="font-normal text-lg text-gray-800 ">
+    <p className="font-medium text-lg text-subBlack ">
         {props.sectionText}
     </p>
   </div>;

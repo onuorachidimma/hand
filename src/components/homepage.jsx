@@ -17,12 +17,12 @@ const Homepage = () => {
       <Hero />
       <div id="aboutUs">
         <SubHeading
-            subHeading="Who We Are"
+            subHeading="Who we are"
             sectionText="We love what we do and create partnerships with our clients to ensure their digital transformation is positioned for long-term success.We believe that the human dimensions essential to start any successful project and that this is where splendid emotional relationships between the company and people are born."
         />
       </div>
 
-      <div className="w-10/12 mx-auto py-10">
+      <div className="w-10/12 mx-auto py-10  mt-12 md:mt-16">
         <img
           className="w-full object-cover"
           src={gingerAndOrangeImage}
@@ -30,36 +30,36 @@ const Homepage = () => {
         />
       </div>
 
-      <div className="">
-        <div className="text-center mb-10 ">
-          <SubHeading subHeading="Meet the heroes behind the magic" />
-        </div>
+        <div className="">
+            <div className="text-center my-20  md:my-24">
+            <SubHeading subHeading="Meet the heroes behind the magic" />
+            </div>
 
-        <div className="w-9/12 justify-between mx-auto flex flex-wrap">
-          <div className="bg-white shadow-inner w-full sm:w-full md:w-6/12 lg:w-4/12 p-5 mb-4">
-            <Avatars
-              avatarImage={Avatar1}
-              name="Esther Howard"
-              role="Founder"
-            />
-          </div>
-          <div className="bg-white shadow-inner w-full sm:w-full md:w-6/12 lg:w-4/12 p-5 mb-4">
-            <Avatars
-              avatarImage={Avatar2}
-              name="Cody Fisher"
-              role="Developer"
-            />
-          </div>
-          <div className="bg-white shadow-inner w-full sm:w-full md:w-6/12 lg:w-4/12 p-5 mb-4">
-            <Avatars
-              avatarImage={Avatar3}
-              name="Brooklyn Simmons"
-              role="Designer"
-            />
-          </div>
+            <div className="w-9/12 lg:w-10/12 justify-between mx-auto flex flex-wrap">
+                <div className="bg-white shadow-inner w-full md:w-5/12 lg:w-4/12 p-5 mb-4">
+                    <Avatars
+                    avatarImage={Avatar1}
+                    name="Esther Howard"
+                    role="Founder"
+                    />
+                </div>
+                <div className="bg-white shadow-inner w-full md:w-5/12 lg:w-4/12 p-5 mb-4">
+                    <Avatars
+                    avatarImage={Avatar2}
+                    name="Cody Fisher"
+                    role="Developer"
+                    />
+                </div>
+                <div className="bg-white shadow-inner w-full md:w-5/12 lg:w-4/12 p-5 mb-4">
+                    <Avatars
+                    avatarImage={Avatar3}
+                    name="Brooklyn Simmons"
+                    role="Designer"
+                    />
+                </div>
+            </div>
         </div>
-    </div>
-        <div className="bg-gray-900 text-white  ">
+        <div className="bg-subBlack text-white  ">
           <div className=" flex flex-wrap justify-between  text-center lg:text-left p-0 lg:pl-28 py-5">
             <div className="w-full sm:w-full md:w-6/12 lg:w-3/12  mb-4">
               <Statistics number="350" groupOfPeople="Clients Worldwide" />
@@ -80,7 +80,7 @@ const Homepage = () => {
           </div>
         </div>
 
-        <div className="flex justify-between flex-wrap py-52 px-28">
+        <div className="flex justify-between flex-wrap py-52 px-14 lg:px-28">
             <div className=" pt-12 pb-20 px-8 md:px-12 lg:px-28 bg-yellow-50 text-center w-full  lg:w-5/12 mb-12">
                 <img
                 className="w-full h-full"
