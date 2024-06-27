@@ -9,6 +9,7 @@ import Avatar3 from "../asset/images/Female avater with coffee.svg";
 import AvatarMaleAndFemale from "../asset/images/Male and Female avatar.svg"
 import Statistics from "./statistics";
 import Form from "./form";
+import Footer from "./footer";
 const Homepage = () => {
   return (
     <div>
@@ -96,6 +97,8 @@ const Homepage = () => {
                 </div>
             </div>
         </div>
+
+        <Footer />
     </div>
     
   );
