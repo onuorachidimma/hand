@@ -1,4 +1,4 @@
-# Project Name
+# HAND INTERNSHIP ASSESSMENT
 
 A brief description of what your project does.
 
