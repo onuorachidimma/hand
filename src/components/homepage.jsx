@@ -6,7 +6,7 @@ import Avatars from "./avatar";
 import Avatar1 from "../asset/images/Female avatar with laptop.svg";
 import Avatar2 from "../asset/images/Male avatar with phone.svg";
 import Avatar3 from "../asset/images/Female avater with coffee.svg";
-import AvatarMaleAndFemale from "../asset/images/Male and Female avatar.svg"
+import AvatarMaleAndFemale from "../asset/images//MaleAndFemaleAvatar.svg"
 import Statistics from "./statistics";
 import Form from "./form";
 import Footer from "./footer";
@@ -15,10 +15,12 @@ const Homepage = () => {
     <div>
       <NavBar />
       <Hero />
-      <SubHeading
-        subHeading="Who We Are"
-        sectionText="We love what we do and create partnerships with our clients to ensure their digital transformation is positioned for long-term success.We believe that the human dimensions essential to start any successful project and that this is where splendid emotional relationships between the company and people are born."
-      />
+      <div id="aboutUs">
+        <SubHeading
+            subHeading="Who We Are"
+            sectionText="We love what we do and create partnerships with our clients to ensure their digital transformation is positioned for long-term success.We believe that the human dimensions essential to start any successful project and that this is where splendid emotional relationships between the company and people are born."
+        />
+      </div>
 
       <div className="w-10/12 mx-auto py-10">
         <img
@@ -34,7 +36,7 @@ const Homepage = () => {
         </div>
 
         <div className="w-9/12 justify-between mx-auto flex flex-wrap">
-          <div className="bg-white shadow-inner w-full sm:w-full md:w-6/12 lg:w-4/12 p-5 mb-4 text-center">
+          <div className="bg-white shadow-inner w-full sm:w-full md:w-6/12 lg:w-4/12 p-5 mb-4">
             <Avatars
               avatarImage={Avatar1}
               name="Esther Howard"

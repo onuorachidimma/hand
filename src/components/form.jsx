@@ -10,7 +10,7 @@ const Form = () => {
 
   return (
     <div>
-      <form className="" onSubmit={handleSubmit}>
+      <form className="" onSubmit={handleSubmit} id='form'>
         <div className="mb-4">
           <input
             className="appearance-none border-gray-500 border text-black rounded w-full py-6 pl-14 mb-8 leading-tight focus:outline-none focus:shadow-outline"
